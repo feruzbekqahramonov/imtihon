@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Asosiy Sahifa</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h2>Where in the world?</h2>
+            <div class="header__container_btn" id="toggleBtn">
+                <img src="./img/moon in sun.svg" alt="mooon in sun">
+                <p>Dark Mode</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="main__container">
+            <div class="main__search">
+                <div class="main__search__form-control">
+                    <label for="search-input" >
+                      <img class="search-img-input" src="./img/search.svg" alt=""/>
+                    </label>
+                    <input id="input" type="text" placeholder="Search for a country…" required autocomplete="off"/>
+                  </div>
+                <select class="form" aria-label="Default select example">
+                    <option selected>Filter by Region</option>
+                    <option value="africa">Africa</option>
+                    <option value="america">America</option>
+                    <option value="asia">Asia</option>
+                    <option value="europe">Europe</option>
+                    <option value="oceania">Oceania</option>
+                  </select>
+            </div>
+            <div class="main__container_countries" >
+        </div>
+    </div>
+</div>
+
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
